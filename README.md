@@ -68,6 +68,16 @@ c.retrieve(
     'download.netcdf_zip')
 ```
 
+#### parâmetro `area`
+Deve ser informado como uma lista de 4 elementos, sendo eles: latitude norte (max y), longitude oeste (min x), latitude sul (min x) e longitude leste (max x).
+
+```python
+{
+   ...,
+    "area":  [6.1599998802974305, -73.99, -18.04, -43.3899994411983982],
+}
+```
+
 [**Script python usado**](./Download_pm25_monthly.py)
 
 ## Organizando os dados
